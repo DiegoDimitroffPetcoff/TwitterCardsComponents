@@ -1,0 +1,59 @@
+.ContainerCard {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+ 
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+article header div {
+  display: flex;
+  flex-direction: column;
+}
+
+article header span {
+  opacity: 0.6;
+}
+
+.img {
+  border-radius: 100px;
+  width: 48px;
+  height: 48px;
+}
+
+.name,
+.text {
+  color: white;
+
+  font-size: 0.8rem;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+
+  align-items: center;
+}
+
+.button {
+  border-radius: 999px;
+  font-weight: bold;
+  margin-right: 16px;
+  border: 0;
+  padding: 6px 16px;
+  cursor: pointer;
+}
